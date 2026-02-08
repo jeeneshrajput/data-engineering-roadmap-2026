@@ -19,3 +19,70 @@
 ## Key Learning
 - Aggregations return single values
 - Used for business-level questions
+# Day 04 — GROUP BY
+
+## Concepts
+- GROUP BY splits data into categories
+- Aggregations run per group
+
+## Queries Practiced
+- COUNT(*) GROUP BY department
+- SUM(salary) GROUP BY department
+# Day 05 — WHERE vs HAVING
+
+## Key Difference
+- WHERE filters rows before aggregation
+- HAVING filters groups after aggregation
+
+## Queries Practiced
+- WHERE with SELECT
+- GROUP BY with HAVING
+# Day 06 — ORDER BY & LIMIT
+
+## Concepts
+- ORDER BY sorts result sets
+- LIMIT restricts number of rows
+
+## Queries Practiced
+- Top-N salary queries
+- ORDER BY ASC / DESC
+# Day 07 — DISTINCT
+
+## Concepts
+- DISTINCT removes duplicate rows
+- Works on selected columns
+
+## Queries Practiced
+- DISTINCT department
+- DISTINCT on multiple columns
+# Day 08 — NULL & COALESCE
+
+## Concepts
+- NULL represents missing values
+- IS NULL is used for NULL checks
+- COALESCE provides default values
+
+## Queries Practiced
+- Filtering NULLs
+- Handling NULLs safely
+# Day 09 — CASE WHEN
+
+## Concepts
+- Conditional logic in SQL
+- Creating derived columns
+
+## Queries Practiced
+- Salary categorization
+- CASE with aggregation
+# Day 10 — INNER JOIN
+
+## Tables Used
+- employees
+- departments
+
+## Concepts
+- INNER JOIN returns matching rows only
+- Tables are linked via common columns
+
+## Queries Practiced
+- Employee + department join
