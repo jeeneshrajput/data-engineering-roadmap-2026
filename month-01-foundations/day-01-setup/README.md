@@ -86,3 +86,13 @@
 
 ## Queries Practiced
 - Employee + department join
+# Day 12 — RIGHT JOIN & FULL JOIN
+
+## Concepts
+- RIGHT JOIN keeps all rows from right table
+- FULL JOIN keeps all rows from both tables
+
+## Use Cases
+- Data completeness checks
+- Audit queries
+
