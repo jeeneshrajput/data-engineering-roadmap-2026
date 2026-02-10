@@ -95,4 +95,24 @@
 ## Use Cases
 - Data completeness checks
 - Audit queries
+# Day 13 — Subqueries
+
+## Concepts
+- Subquery = query inside a query
+- Inner query executes first
+
+## Queries Practiced
+- Subquery with WHERE
+- Subquery with IN
+# Day 14 — CTEs + SQL Revision Test
+
+## New Concept
+- CTE (WITH clause) for readable SQL
+
+## Revision Covered
+- SELECT, WHERE, GROUP BY, HAVING
+- ORDER BY, LIMIT, DISTINCT
+- NULLs, CASE
+- INNER & LEFT JOIN
+- Subqueries
 
